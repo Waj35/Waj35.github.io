@@ -1,0 +1,131 @@
+/* --- Social Network Section (UE Variable Nodes) --- */
+
+.social-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* Base Node Link */
+.ue-var-node {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.ue-var-node:hover {
+    transform: scale(1.05);
+}
+
+/* Pill Container (Now Rectangular Node) */
+.var-pill {
+    background: #111; /* Dark inner bg */
+    border-radius: 4px; /* Rectangular with little round corner */
+    display: flex;
+    align-items: center;
+    padding: 8px 15px; /* Balanced padding */
+    border: 1px solid transparent;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    position: relative;
+    min-width: 200px;
+}
+
+/* Pin (Left Rounded Square) */
+.var-pin {
+    width: 12px;
+    height: 12px;
+    border-radius: 4px; /* Matches node corner style */
+    margin-right: 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background-color: #555; /* Default */
+    flex-shrink: 0;
+}
+
+/* Content Wrapper */
+.var-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Icon */
+.var-icon {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Name */
+.var-name {
+    font-family: 'Cascadia Code', monospace;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* --- Variable Type Colors (UE5 Standard) --- */
+
+/* Object (Blue) */
+.type-object .var-pill { border-color: #00AEEF; background: rgba(0, 174, 239, 0.1); }
+.type-object .var-pin { background-color: #00AEEF; }
+.type-object:hover .var-pill { box-shadow: 0 0 15px rgba(0, 174, 239, 0.6); }
+
+/* Transform (Orange) */
+.type-transform .var-pill { border-color: #FF6600; background: rgba(255, 102, 0, 0.1); }
+.type-transform .var-pin { background-color: #FF6600; }
+.type-transform:hover .var-pill { box-shadow: 0 0 15px rgba(255, 102, 0, 0.6); }
+
+/* Class (Purple) */
+.type-class .var-pill { border-color: #9933FF; background: rgba(153, 51, 255, 0.1); }
+.type-class .var-pin { background-color: #9933FF; }
+.type-class:hover .var-pill { box-shadow: 0 0 15px rgba(153, 51, 255, 0.6); }
+
+/* Interface (Yellow/Gold) */
+.type-interface .var-pill { border-color: #EFA600; background: rgba(239, 166, 0, 0.1); }
+.type-interface .var-pin { background-color: #EFA600; }
+.type-interface:hover .var-pill { box-shadow: 0 0 15px rgba(239, 166, 0, 0.6); }
+
+/* Boolean (Red) */
+.type-bool .var-pill { border-color: #8B1A1A; background: rgba(139, 26, 26, 0.1); }
+.type-bool .var-pin { background-color: #8B1A1A; }
+.type-bool:hover .var-pill { box-shadow: 0 0 15px rgba(139, 26, 26, 0.6); }
+
+/* Float (Green) */
+.type-float .var-pill { border-color: #A5E428; background: rgba(165, 228, 40, 0.1); }
+.type-float .var-pin { background-color: #A5E428; }
+.type-float:hover .var-pill { box-shadow: 0 0 15px rgba(165, 228, 40, 0.6); }
+
+/* Vector (Gold/Yellow) */
+.type-vector .var-pill { border-color: #FBC531; background: rgba(251, 197, 49, 0.1); }
+.type-vector .var-pin { background-color: #FBC531; }
+.type-vector:hover .var-pill { box-shadow: 0 0 15px rgba(251, 197, 49, 0.6); }
+
+/* Integer (Cyan) */
+.type-int .var-pill { border-color: #1ABC9C; background: rgba(26, 188, 156, 0.1); }
+.type-int .var-pin { background-color: #1ABC9C; }
+.type-int:hover .var-pill { box-shadow: 0 0 15px rgba(26, 188, 156, 0.6); }
+
+/* String (Magenta) */
+.type-string .var-pill { border-color: #E84393; background: rgba(232, 67, 147, 0.1); }
+.type-string .var-pin { background-color: #E84393; }
+.type-string:hover .var-pill { box-shadow: 0 0 15px rgba(232, 67, 147, 0.6); }
+
+/* Texture (Red-Orange) */
+.type-texture .var-pill { border-color: #E74C3C; background: rgba(231, 76, 60, 0.1); }
+.type-texture .var-pin { background-color: #E74C3C; }
+.type-texture:hover .var-pill { box-shadow: 0 0 15px rgba(231, 76, 60, 0.6); }
+
+/* Responsive */
+@media (max-width: 600px) {
+    .social-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ue-var-node {
+        width: 100%;
+        max-width: 300px;
+    }
+    .var-pill {
+        width: 100%;
+    }
+}

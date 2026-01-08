@@ -1,0 +1,121 @@
+/* --- Services Section --- */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.service-node {
+    background: #202020;
+    border: 1px solid #000;
+    border-radius: 6px;
+    box-shadow: var(--shadow-node);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.service-node:hover {
+    transform: translateY(-5px);
+    border-color: var(--ue-primary);
+}
+
+.service-header {
+    background: linear-gradient(to bottom, #4a4a4a, #2a2a2a);
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-header i {
+    color: var(--ue-primary);
+}
+
+.service-body {
+    padding: 20px;
+}
+
+.service-body p {
+    font-size: 0.9rem;
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* --- Testimonials (Output Log Testimonials) --- */
+.output-log-window {
+    background: #101010;
+    border: 1px solid #333;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Cascadia Code', 'Consolas', monospace;
+}
+
+.log-header {
+    background: #2d2d2d;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+}
+
+.log-header span {
+    font-size: 0.8rem;
+    color: #aaa;
+    font-weight: 600;
+}
+
+.log-controls {
+    display: flex;
+    gap: 8px;
+}
+
+.log-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.log-dot.red { background: #ff5f56; }
+.log-dot.yellow { background: #ffbd2e; }
+.log-dot.green { background: #27c93f; }
+
+.log-content {
+    padding: 15px;
+    font-size: 0.85rem;
+    color: #ddd;
+    line-height: 1.5;
+}
+
+.log-line {
+    margin-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.log-time { color: #555; }
+.log-cat { color: #00AEEF; } /* Blueprint Blue */
+.log-msg.success { color: #2ecc71; }
+.log-msg.display { color: #ddd; }
+.log-msg.verbose { color: #999; }
+.log-msg.warning { color: #f1c40f; }
+
+.blink-cursor {
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .services-grid { grid-template-columns: 1fr; }
+}
