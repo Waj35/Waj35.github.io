@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:mulhiq.com)",
+      "WebFetch(domain:bitslaps.com)",
+      "WebFetch(domain:hoveralerts.com)",
+      "WebFetch(domain:srper.com)",
+      "WebFetch(domain:tukachat.com)"
+    ]
+  }
+}
