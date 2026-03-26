@@ -1,0 +1,109 @@
+====================================================================
+GENERIC HR EMAIL TEMPLATE — WAJAHAT IRFAN
+====================================================================
+
+Subject: Application for Senior Full Stack Developer Position — Wajahat Irfan
+
+--------------------------------------------------------------------
+
+Dear [Hiring Manager / HR Team],
+
+I hope this message finds you well. My name is Wajahat Irfan, and I am writing to express my interest in the [Job Title] position at [Company Name]. With 4+ years of hands-on experience in full-stack software development, system architecture, and technical leadership, I am confident I can make an immediate and meaningful impact on your engineering team.
+
+Currently, I serve as a Senior Full Stack Developer at Mulhiq (Dubai) and Runrly (Toronto), where I lead the design and development of scalable web platforms, REST and GraphQL APIs, and cloud infrastructure for high-traffic applications.
+
+Here is a snapshot of what I bring to the table:
+
+TECHNICAL EXPERTISE:
+• Frontend: React.js, Next.js, Vue.js, TypeScript, Redux, Tailwind CSS, React Native
+• Backend: Node.js, Express.js, NestJS, Django, Ruby on Rails, REST & GraphQL APIs
+• Databases: PostgreSQL, MongoDB, MySQL, Redis
+• Cloud & DevOps: AWS (EC2, S3, RDS), Docker, Nginx, CI/CD Pipelines, GitHub Actions
+• Monitoring: Sentry, Prometheus, Grafana, LogRocket
+• Integrations: Stripe API, Google Ads API, Meta Ads API
+• Tools: Git, Figma, Shopify, WordPress, Adobe Creative Suite
+
+KEY HIGHLIGHTS:
+• Led technical architecture for a scalable influencer-marketing platform at Mulhiq, designing high-performance backend systems and cloud infrastructure
+• Built and optimized marketing dashboards with campaign automation, integrating Google Ads and Meta Ads APIs at Runrly
+• Delivered 50+ projects across 8+ companies spanning web applications, e-commerce platforms, real-time chat systems, streaming tools, and SERP APIs
+• Experienced in mentoring developers, conducting code reviews, and driving engineering standards across cross-functional teams
+
+NOTABLE PROJECTS:
+• mulhiq.com — Influencer marketing platform (React, TypeScript, Next.js, AWS)
+• runrly.com — Marketing dashboard & campaign automation (React, Node.js, AWS)
+• bitslaps.com — Modern SPA with client-side rendering (React, Redux)
+• hoveralerts.com — Streaming alerts platform with real-time WebSockets
+• srper.com — SERP API service with scalable endpoints (Node.js, Python)
+• tukachat.com — Real-time messaging platform (React, WebSockets, Socket.IO)
+
+I hold a Bachelor of Science in Computer Science (BSCS) from the University of Central Punjab, Lahore.
+
+I would welcome the opportunity to discuss how my skills and experience align with [Company Name]'s goals. I have attached my resume for your review and am available for an interview at your earliest convenience.
+
+Thank you for your time and consideration. I look forward to hearing from you.
+
+Best regards,
+Wajahat Irfan
+Senior Full Stack Developer
+Lahore, Punjab, Pakistan
+Phone: +92 323 4044233
+Email: wajahatirfan35@gmail.com
+LinkedIn: linkedin.com/in/wajahatirfan
+GitHub: github.com/wajahatirfan
+Portfolio: waj35.github.io
+
+
+====================================================================
+SHORT VERSION (for quick applications / job portals)
+====================================================================
+
+Subject: Senior Full Stack Developer — 4+ Years | React, Node.js, AWS
+
+Hi [Hiring Manager],
+
+I'm Wajahat Irfan, a Senior Full Stack Developer with 4+ years of experience building scalable web applications using React, TypeScript, Next.js, Node.js, Python, and AWS.
+
+Currently working at Mulhiq (Dubai) and Runrly (Toronto), I specialize in:
+• Full-stack development with React.js, Node.js, and Django
+• REST & GraphQL API design and third-party integrations (Stripe, Google Ads, Meta Ads)
+• Cloud infrastructure with AWS, Docker, and CI/CD pipelines
+• Team leadership, code reviews, and mentoring
+
+I have delivered 50+ projects across 8+ companies and would love to bring my expertise to [Company Name]. My resume is attached for your review.
+
+Looking forward to connecting.
+
+Best,
+Wajahat Irfan
+wajahatirfan35@gmail.com | +92 323 4044233
+linkedin.com/in/wajahatirfan
+
+
+====================================================================
+FOLLOW-UP EMAIL TEMPLATE
+====================================================================
+
+Subject: Following Up — Senior Full Stack Developer Application
+
+Dear [Hiring Manager],
+
+I hope you're doing well. I wanted to follow up on my application for the [Job Title] position that I submitted on [Date]. I remain very interested in the opportunity to contribute to [Company Name]'s engineering team.
+
+With my background in full-stack development, cloud architecture, and technical leadership, I believe I would be a strong fit for this role. I would be happy to provide any additional information or discuss my qualifications further.
+
+Thank you again for your time, and I look forward to hearing from you.
+
+Best regards,
+Wajahat Irfan
+wajahatirfan35@gmail.com | +92 323 4044233
+
+
+====================================================================
+INSTRUCTIONS:
+Replace [bracketed text] with actual values before sending.
+- [Job Title] → e.g., "Senior Full Stack Developer"
+- [Company Name] → e.g., "Google"
+- [Hiring Manager / HR Team] → use name if known
+- [Date] → date you applied (for follow-up)
+====================================================================
