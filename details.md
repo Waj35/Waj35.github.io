@@ -1,6 +1,6 @@
 # Wajahat Irfan
 
-**Principal Engineer**
+**Senior Full Stack Developer**
 
 ---
 
@@ -18,13 +18,13 @@
 
 ## Professional Summary
 
-Principal Engineer with 7+ years of experience in full-stack software development, system architecture, and technical leadership. Proven track record of designing and delivering scalable web applications, REST and GraphQL APIs, and cloud infrastructure for high-traffic platforms. Expertise in React, TypeScript, Next.js, Node.js, Python, and AWS. Experienced in leading cross-functional engineering teams, mentoring developers, and driving technical strategy from architecture to deployment.
+Senior Full Stack Developer with 4+ years of experience in full-stack software development, system architecture, and technical leadership. Proven track record of designing and delivering scalable web applications, REST and GraphQL APIs, and cloud infrastructure for high-traffic platforms. Expertise in React, TypeScript, Next.js, Node.js, Python, and AWS. Experienced in leading cross-functional engineering teams, mentoring developers, and driving technical strategy from architecture to deployment.
 
 ---
 
 ## Professional Experience
 
-### 1. Mulhiq — Principal Engineer
+### 1. Mulhiq — Senior Full Stack Developer
 - **Location:** Dubai, United Arab Emirates
 - **Duration:** Jun 2025 – Present
 - **Website:** https://mulhiq.com
@@ -36,7 +36,7 @@ Principal Engineer with 7+ years of experience in full-stack software developmen
 - Led cloud infrastructure and DevOps strategy using AWS, Docker, CI/CD pipelines
 - Mentored developers and reviewed architecture decisions to maintain high engineering standards
 
-### 2. Runrly — Full Stack Engineer
+### 2. Runrly — Senior Full Stack Developer
 - **Location:** Toronto, ON, Canada
 - **Duration:** Nov 2025 – Present
 - **Website:** https://runrly.com
@@ -47,7 +47,7 @@ Principal Engineer with 7+ years of experience in full-stack software developmen
 - Managed deployments and infrastructure using AWS, Docker, and CI/CD pipelines
 - Implemented monitoring and logging using Sentry, Prometheus, and Grafana
 
-### 3. Midcreatives — Senior Full-Stack Engineer
+### 3. Midcreatives — Senior Full Stack Developer
 - **Location:** Quebec, Canada
 - **Duration:** Feb 2025 – Present
 - **Website:** https://midcreatives.com
@@ -57,9 +57,9 @@ Principal Engineer with 7+ years of experience in full-stack software developmen
 - Integrated third-party services including Stripe, Google Ads, and Meta Ads for automation and real-time data tracking
 - Owned cloud infrastructure and deployment workflows using AWS, Docker, and CI/CD pipelines
 
-### 4. GGDEN — Senior Full-Stack Developer
+### 4. GGDEN — Mid-Level Full Stack Developer
 - **Location:** Lahore, Punjab, Pakistan
-- **Duration:** Nov 2023 – Mar 2026
+- **Duration:** Nov 2023 – Mar 2025
 - **Website:** https://ggden.com
 - **Tech Stack:** React.js, Django, Node.js, Python, AWS
 - Led a team of developers, providing guidance and mentorship to ensure project objectives were met efficiently
@@ -67,7 +67,7 @@ Principal Engineer with 7+ years of experience in full-stack software developmen
 - Implemented best practices in software architecture, coding standards, and version control
 - Conducted code reviews and performance evaluations to uphold coding standards and project timelines
 
-### 5. GGDEN — Associate Full Stack Developer
+### 5. GGDEN — Mid-Level Full Stack Developer
 - **Location:** Lahore, Punjab, Pakistan
 - **Duration:** Nov 2021 – Mar 2024
 - Collaborated with senior developers to develop and enhance web applications using agile methodologies
@@ -94,7 +94,7 @@ Principal Engineer with 7+ years of experience in full-stack software developmen
 - **Tech Stack:** React.js, WebSockets, Node.js
 - Built a real-time messaging and chat platform with WebSocket-based communication, user authentication, message persistence, and responsive UI for seamless cross-device experience.
 
-### 10. TTS Tech Solutions — Junior Web Developer
+### 10. TTS Tech Solutions — Junior Full Stack Developer
 - **Location:** Lahore, Pakistan
 - **Duration:** May 2019 – Nov 2021
 - Developed and maintained web applications, contributing to both front-end and back-end development
