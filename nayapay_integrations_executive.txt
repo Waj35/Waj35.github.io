@@ -1,0 +1,39 @@
+Subject: Integrations Executive
+
+Hi NayaPay Team,
+
+I'm Wajahat Irfan, a Senior Full Stack Developer with four years of production experience
+designing and maintaining REST and GraphQL API integrations across fintech-adjacent and
+high-traffic platforms.
+
+My background maps closely to what you're looking for:
+
+- REST API design and integration across multiple production systems, handling
+  JSON/XML data formats, authentication layers, and third-party service connectivity.
+
+- Database experience across both SQL (PostgreSQL, MySQL) and NoSQL (MongoDB, Redis)
+  with a strong focus on data integrity and reliability.
+
+- Security-conscious development is part of my standard practice — secure
+  authentication, authorization flows, and encrypted data handling have been
+  built into every system I've shipped.
+
+- I've worked in cross-functional teams across Dubai (Mulhiq), Toronto (Runrly),
+  and Quebec (Midcreatives), collaborating with developers, architects, and
+  business stakeholders simultaneously while maintaining clear documentation
+  throughout.
+
+I haven't shipped integrations specifically within digital banking yet, but the
+engineering fundamentals — secure API design, data integrity, compliance-aware
+architecture — are exactly what I've been doing at scale. Fintech standards like
+PCI-DSS and GDPR are a learning curve, not a barrier.
+
+BSCS from University of Central Punjab. 50+ projects delivered. 8+ companies served.
+
+Resume is attached. Portfolio: https://waj35.github.io
+
+Would love the chance to contribute to what NayaPay is building.
+
+Wajahat Irfan
+wajahatirfan35@gmail.com
++92 323 4044233
