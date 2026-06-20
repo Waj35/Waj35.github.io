@@ -5,7 +5,17 @@
       "WebFetch(domain:bitslaps.com)",
       "WebFetch(domain:hoveralerts.com)",
       "WebFetch(domain:srper.com)",
-      "WebFetch(domain:tukachat.com)"
+      "WebFetch(domain:tukachat.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:gitlab.com)",
+      "WebFetch(domain:www.nayapay.com)",
+      "Bash(git push *)",
+      "Bash(git fsck *)",
+      "Bash(git ls-tree *)",
+      "Bash(Remove-Item -Force \".git\\\\objects\\\\73\\\\5d90e4899135f9cdaac6c1647d37697a091825\")",
+      "Bash(git reset *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ]
   }
 }
