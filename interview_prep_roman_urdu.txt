@@ -1,0 +1,521 @@
+================================================================
+INTERVIEW PREP - IZ GLOBAL (60 MIN TECHNICAL)
+Topics: Vue.js, TypeScript, Pinia, Vitest, Docker
+Time available: 4 hours
+================================================================
+
+PEHLE EK BAAT YAAD RAKHO:
+- Jab interviewer puchay "kya tumne ye use kiya hai?", JHOOT MAT BOLNA.
+- Bolo: "Main ne abhi tak professional project mein use nahi kiya, lekin
+  fundamentals samajhta hoon aur seekhne ke liye taiyaar hoon."
+- Honesty + curiosity > fake experience. Interviewers fake banda 2 min
+  mein pakar lete hain.
+
+================================================================
+TIME PLAN (240 minutes)
+================================================================
+1. Vue.js              - 70 min
+2. TypeScript          - 50 min
+3. Pinia               - 25 min
+4. Vitest              - 25 min
+5. Docker              - 30 min
+6. Mock answers + revision - 40 min
+
+================================================================
+PART 1: VUE.JS (sab se important - 70 min do)
+================================================================
+
+VUE KYA HAI? (ye line yaad kar lo)
+-----------------------------------
+"Vue ek progressive JavaScript framework hai jo user interface
+banane ke liye use hota hai. Iska reactive data model hota hai,
+single-file components (.vue files) hote hain, aur virtual DOM
+use karta hai. Vue 3 mein Composition API aaya jo TypeScript
+ke saath behtar kaam karta hai."
+
+VUE 2 vs VUE 3:
+- Vue 2 = Options API (data, methods, computed alag alag)
+- Vue 3 = Composition API (sab kuch setup() ke andar, ya <script setup>)
+- Aaj kal sab Vue 3 use karte hain.
+
+SINGLE FILE COMPONENT (.vue file) KA STRUCTURE:
+-----------------------------------------------
+<script setup lang="ts">
+import { ref, computed, onMounted } from 'vue'
+
+const count = ref(0)
+const doubled = computed(() => count.value * 2)
+
+function increment() {
+  count.value++
+}
+
+onMounted(() => {
+  console.log('component mount ho gaya')
+})
+</script>
+
+<template>
+  <button @click="increment">
+    Count: {{ count }} - Doubled: {{ doubled }}
+  </button>
+</template>
+
+<style scoped>
+button { color: blue; }
+</style>
+
+
+VUE KE ZAROORI CONCEPTS (interview mein 100% puchenge):
+
+1) ref vs reactive
+   - ref: koi bhi value (number, string, object) ko reactive banata hai
+     JS code mein .value lagana parta hai: count.value++
+     Template mein .value nahi lagta: {{ count }}
+   - reactive: sirf objects ke liye, .value nahi chahiye
+   - Best practice: hamesha ref use karo, simple hai.
+
+2) computed vs watch
+   - computed: ek nayi value banata hai jo automatic update hoti hai
+     Cached hoti hai - jab tak dependency change na ho, dobara nahi chalti
+     Example: const fullName = computed(() => first.value + ' ' + last.value)
+   - watch: jab koi cheez change ho to side effect chalao
+     Example: API call karna jab user input change ho
+     watch(searchTerm, (newVal) => fetchResults(newVal))
+
+3) Lifecycle hooks (component ki zindagi ke stages):
+   - onBeforeMount: DOM mein lagne se pehle
+   - onMounted: DOM mein lag gaya (API calls yahan karo)
+   - onUpdated: re-render ke baad
+   - onUnmounted: component remove ho gaya (cleanup yahan)
+
+4) Props (parent se child ko data dena):
+   const props = defineProps<{
+     title: string
+     count?: number   // optional
+   }>()
+
+5) Emits (child se parent ko message bhejna):
+   const emit = defineEmits<{
+     (e: 'update', value: number): void
+   }>()
+   emit('update', 5)
+
+6) v-model (two-way binding):
+   <input v-model="username" />
+   Matlab input mein jo type ho wo username variable mein chala jaye
+   aur username change ho to input mein dikhe.
+
+7) Directives (template mein use hote hain):
+   - v-if / v-else / v-else-if : condition ke hisab se dikhana
+   - v-show: CSS display toggle (DOM mein rehta hai)
+   - v-for: list render karna - HAMESHA :key dena
+     <li v-for="item in items" :key="item.id">{{ item.name }}</li>
+   - v-on (ya @): events - @click, @input
+   - v-bind (ya :): attributes bind karna - :src="imageUrl"
+
+8) v-if vs v-show (favorite question):
+   - v-if: DOM se hata deta hai (initial cost kam, toggle cost zyada)
+   - v-show: sirf CSS display:none karta hai (toggle fast)
+   - Frequent toggle = v-show, rare toggle = v-if
+
+9) Composables (Vue ka React hooks jaisa):
+   - Reusable logic ko function mein daalna, naam "use" se shuru
+   - Example: useCounter(), useFetch(), useAuth()
+   function useCounter() {
+     const count = ref(0)
+     const increment = () => count.value++
+     return { count, increment }
+   }
+
+10) Slots (component ke andar content daalna):
+    Parent: <MyCard><p>Hello</p></MyCard>
+    Child:  <div class="card"><slot /></div>
+    Named slot: <slot name="header" />
+
+VUE ROUTER (basic samajh lo):
+- URL ke hisab se different pages dikhana
+- routes array mein path aur component define karte hain
+- <router-link to="/about">About</router-link>
+- <router-view /> jahan page render hoga
+
+================================================================
+PART 2: TYPESCRIPT (50 min)
+================================================================
+
+TYPESCRIPT KYA HAI? (ye yaad kar lo)
+-------------------------------------
+"TypeScript JavaScript ka superset hai jo static typing add karta hai.
+Code likhne ke waqt errors pakar leta hai, runtime pe nahi. Browser
+mein chalne se pehle JavaScript mein compile hota hai."
+
+KYUN USE KAREIN:
+- Bugs pehle pakar lete hain (compile time)
+- IDE mein autocomplete behtar
+- Bara codebase manage karna asaan
+- Refactoring safe hota hai
+
+ZAROORI TYPES:
+
+1) Basic types:
+   let name: string = "Wajahat"
+   let age: number = 25
+   let isActive: boolean = true
+   let items: string[] = ["a", "b"]
+   let user: { name: string; age: number } = { name: "W", age: 25 }
+
+2) Union types (ek se zyada types):
+   let id: string | number
+   id = "abc"   // ok
+   id = 123     // ok
+   id = true    // error
+
+3) Optional (?):
+   interface User {
+     name: string
+     email?: string   // optional, undefined ho sakta hai
+   }
+
+4) Interface vs Type:
+   interface User { name: string }
+   type User = { name: string }
+   // Dono kaam ek hi karte hain (mostly).
+   // Interface extend ho sakta hai easily.
+   // Type unions ke liye behtar.
+
+5) Functions:
+   function add(a: number, b: number): number {
+     return a + b
+   }
+   // Arrow function:
+   const add = (a: number, b: number): number => a + b
+
+6) Generics (re-usable types):
+   function identity<T>(value: T): T {
+     return value
+   }
+   identity<string>("hello")
+   identity<number>(123)
+
+7) any vs unknown vs never:
+   - any: koi bhi type (avoid karo, TS ka faida khatam)
+   - unknown: koi bhi type lekin use karne se pehle check karna parta hai
+   - never: function jo kabhi return na kare (error throw kare)
+   - void: function jo kuch return nahi karta
+
+8) Enums:
+   enum Role { Admin, User, Guest }
+   const r: Role = Role.Admin
+
+9) Type assertion:
+   const input = document.getElementById('x') as HTMLInputElement
+
+10) Utility types (kaam ki cheezein):
+    - Partial<T>: sab fields optional
+    - Required<T>: sab fields required
+    - Pick<T, K>: kuch fields choose karo
+    - Omit<T, K>: kuch fields hatao
+    - Readonly<T>: change nahi ho sakta
+
+VUE + TS COMBO:
+- Props with types: defineProps<{ title: string }>()
+- ref with type: const name = ref<string>('')
+- Composable: function useUser(): { user: Ref<User> } { ... }
+
+================================================================
+PART 3: PINIA (25 min)
+================================================================
+
+PINIA KYA HAI? (ye line yaad karo)
+-----------------------------------
+"Pinia Vue ka official state management library hai. Ye Vuex ki
+jagah aaya hai. Simple, TypeScript-friendly, aur Composition API
+ke saath kaam karta hai. Iska kaam hai aisa data store karna jo
+multiple components ke beech share ho."
+
+KYUN ZAROORAT?
+- Login user ka data har page pe chahiye
+- Cart items navbar aur cart page dono pe chahiye
+- Theme (dark/light) sab components mein chahiye
+- Inko props se neeche bhejna painful hai - Pinia se direct access milti hai.
+
+BASIC STORE:
+import { defineStore } from 'pinia'
+import { ref, computed } from 'vue'
+
+export const useCounterStore = defineStore('counter', () => {
+  // state
+  const count = ref(0)
+
+  // getters (computed)
+  const doubled = computed(() => count.value * 2)
+
+  // actions (functions)
+  function increment() {
+    count.value++
+  }
+
+  return { count, doubled, increment }
+})
+
+USE KARNA COMPONENT MEIN:
+<script setup>
+import { useCounterStore } from '@/stores/counter'
+const store = useCounterStore()
+</script>
+
+<template>
+  <p>{{ store.count }}</p>
+  <button @click="store.increment()">+</button>
+</template>
+
+PINIA KE 3 HISSAY:
+1) State - data (ref values)
+2) Getters - computed values
+3) Actions - functions jo state change karein
+
+PINIA vs VUEX:
+- Pinia simple, kam boilerplate
+- TypeScript ka support behtar
+- Mutations nahi hain Pinia mein (sirf actions)
+- Vue 3 ke liye recommended
+
+================================================================
+PART 4: VITEST (25 min)
+================================================================
+
+VITEST KYA HAI?
+----------------
+"Vitest ek fast testing framework hai jo Vite ke saath bana hai.
+Jest jaisa API hai lekin tezi se chalta hai. Vue projects ke liye
+recommended hai."
+
+BASIC TEST:
+import { describe, it, expect } from 'vitest'
+
+describe('addition', () => {
+  it('should add two numbers', () => {
+    expect(1 + 1).toBe(2)
+  })
+})
+
+KEY FUNCTIONS:
+- describe(): test ka group banata hai
+- it() ya test(): ek test case
+- expect(): assertion (verify karna)
+- beforeEach(): har test se pehle chalta hai
+- afterEach(): har test ke baad chalta hai
+
+COMMON MATCHERS:
+expect(value).toBe(5)              // exact equal (===)
+expect(obj).toEqual({a:1})         // deep equal (objects/arrays)
+expect(value).toBeTruthy()
+expect(value).toBeFalsy()
+expect(arr).toContain(item)
+expect(fn).toThrow()
+expect(value).toBeNull()
+expect(value).toBeUndefined()
+
+VUE COMPONENT TEST (Vue Test Utils ke saath):
+import { mount } from '@vue/test-utils'
+import { describe, it, expect } from 'vitest'
+import Counter from './Counter.vue'
+
+describe('Counter', () => {
+  it('increments on click', async () => {
+    const wrapper = mount(Counter)
+    await wrapper.find('button').trigger('click')
+    expect(wrapper.text()).toContain('1')
+  })
+})
+
+MOCKING:
+import { vi } from 'vitest'
+const mockFn = vi.fn()
+mockFn.mockReturnValue(42)
+
+RUN COMMANDS:
+- npm run test          (sab tests chalao)
+- npm run test:watch    (file change pe dobara chalao)
+- npm run test:coverage (coverage report)
+
+================================================================
+PART 5: DOCKER (30 min)
+================================================================
+
+DOCKER KYA HAI?
+---------------
+"Docker ek containerization platform hai. Ye applications ko
+containers mein package karta hai jisme code, runtime, libraries
+sab kuch hota hai. 'My machine pe chalta hai' wala problem solve
+karta hai - container har jagah same chalega."
+
+KEY CONCEPTS:
+
+1) Image: blueprint / template (jaise class)
+2) Container: image ka running instance (jaise object)
+3) Dockerfile: image banane ki recipe
+4) Docker Hub: images ka public repository (npm jaisa)
+
+ZAROORI COMMANDS:
+docker pull node:18           # image download karo
+docker images                 # local images dekho
+docker ps                     # running containers
+docker ps -a                  # sab containers (stopped bhi)
+docker run -d -p 3000:3000 my-app   # container chalao
+docker stop <container-id>
+docker rm <container-id>
+docker rmi <image-id>
+docker logs <container-id>
+docker exec -it <container-id> bash   # container ke andar jao
+docker build -t my-app .       # image build karo
+docker-compose up              # multi-container start
+docker-compose down            # sab band karo
+
+SAMPLE DOCKERFILE (Vue app ke liye):
+FROM node:18-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+EXPOSE 80
+CMD ["npm", "run", "preview"]
+
+LINE BY LINE:
+- FROM: base image
+- WORKDIR: working directory set karna
+- COPY: files copy karna host se container mein
+- RUN: build time pe command chalana
+- EXPOSE: port batana (sirf documentation)
+- CMD: container start hone pe ye chalega
+
+DOCKER COMPOSE (multiple services):
+docker-compose.yml:
+version: '3'
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+  database:
+    image: postgres:14
+    environment:
+      POSTGRES_PASSWORD: secret
+
+DOCKER KE FAYDE (interview question):
+1. Consistency - har environment mein same
+2. Isolation - apps ek dusre ko affect nahi karte
+3. Portability - kahin bhi chalao
+4. Fast deployment
+5. Scalability - kubernetes ke saath
+
+CONTAINER vs VM (common question):
+- VM: poora OS chalata hai (heavy, slow)
+- Container: host OS share karta hai (light, fast)
+- Container seconds mein start hota hai, VM minutes mein
+
+================================================================
+PART 6: MOCK INTERVIEW QUESTIONS (40 min - is pe practice karo)
+================================================================
+
+Q1: Apne aap ko introduce karo.
+A: "Mera naam Wajahat hai. Main frontend developer hoon, JavaScript
+   aur web technologies pe kaam kar chuka hoon. Vue, TypeScript,
+   Pinia, Vitest, aur Docker mein abhi formally professional
+   experience nahi hai, lekin fundamentals samajhta hoon aur tezi
+   se seekh sakta hoon. Is role mein grow karna chahta hoon."
+
+Q2: Vue 2 aur Vue 3 mein farq?
+A: "Vue 3 mein Composition API aaya, jo TypeScript ke saath behtar
+   kaam karta hai. Performance behtar hai - virtual DOM optimized
+   hai. Tree-shaking ki support hai to bundle size kam hota hai.
+   Multiple root elements template mein allowed hain Vue 3 mein."
+
+Q3: ref aur reactive mein farq?
+A: "ref kisi bhi value ko reactive banata hai - primitive ya object.
+   JS code mein .value lagana parta hai. reactive sirf objects ke
+   liye hai aur .value nahi chahiye. Best practice hai ke ref use
+   karein consistency ke liye."
+
+Q4: Pinia kyun use karein?
+A: "Jab multiple components ko same data chahiye - jaise logged-in
+   user, cart items, ya theme - to props drilling se bachne ke liye
+   Pinia use karte hain. Centralized store hota hai, jahan se sab
+   components access kar sakte hain."
+
+Q5: TypeScript ka faida?
+A: "Compile time pe errors pakar leta hai, runtime pe nahi. IDE
+   mein autocomplete aur refactoring asaan hoti hai. Bara codebase
+   maintain karna asaan ho jata hai. Documentation jaisa kaam types
+   karte hain."
+
+Q6: Docker container aur image mein farq?
+A: "Image ek blueprint hai - read-only template. Container us image
+   ka running instance hai. Ek image se multiple containers chala
+   sakte hain. Image class ki tarah hai, container object ki tarah."
+
+Q7: Unit test kyun zaroori hai?
+A: "Bugs jaldi pakarne ke liye, refactoring confidence ke saath
+   karne ke liye, aur documentation ke liye - test code batata hai
+   ke function kya karta hai. CI/CD pipeline mein automated tests
+   regression rokte hain."
+
+Q8: v-if vs v-show?
+A: "v-if element ko DOM se hata deta hai - initial render fast,
+   lekin toggle slow. v-show sirf CSS display change karta hai -
+   element DOM mein rehta hai, toggle fast. Frequent toggle ke liye
+   v-show, rare ke liye v-if."
+
+Q9: Composable kya hai?
+A: "Composable Vue ka reusable logic hai - function jo Composition
+   API use karta hai. Naam 'use' se shuru hota hai. React hooks
+   jaisa concept hai. Stateful logic ko components ke beech share
+   karne ke liye use hota hai."
+
+Q10: Tumhe ye job kyun chahiye?
+A: "Mujhe modern frontend stack pe kaam karna hai aur ye role mujhe
+   wo opportunity de raha hai. Main fast learner hoon, aur Vue
+   ecosystem mein expertise build karna chahta hoon. Iz Global ka
+   kaam mujhe interesting laga aur main team mein contribute karna
+   chahta hoon."
+
+================================================================
+LAST MINUTE TIPS
+================================================================
+
+1. PANI PEE LO interview se pehle - dimagh fresh rehta hai.
+
+2. JAB KOI TECHNICAL CHEEZ NA AYE:
+   "Honestly, is specific cheez ka mujhe pura confidence nahi hai,
+   lekin meri samajh ye hai ke... [jo aata hai bolo]. Aap correct
+   karein to seekhne ko milega."
+
+3. CODE LIKHWAYEN TO:
+   - Pehle bolo kya karoge (think out loud)
+   - Choti choti steps mein likho
+   - Variable names clear rakho
+   - Edge cases ka mention karo
+
+4. CONFIDENCE SE BAAT KARO:
+   - Aankhon mein dekho (camera mein agar online hai)
+   - Awaaz clear rakho
+   - Jaldi mat bolo
+   - "Ummm" "Aaaa" kam karo - pause lena better hai
+
+5. SAWAL POOCHO END MEIN:
+   - "Team kis size ki hai?"
+   - "Day-to-day work kya hota hai?"
+   - "Tech stack mein koi aur cheez bhi use hoti hai?"
+   - "First 3 months mein meri expectations kya hongi?"
+
+6. ZARURI: AGAR APP ATAK JAO TO:
+   "Mujhe ek minute do soachne ka" - bilkul ok hai bolna.
+
+================================================================
+ACHA JAYE INSHAALLAH! BEST OF LUCK!
+================================================================

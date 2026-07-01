@@ -1,0 +1,47 @@
+Subject: Hiring: Remote WordPress Developer (2+ Years Experience) — 12 PM to 9 PM PST
+
+Hi Everyone,
+
+We are currently hiring a WordPress Developer to join our growing team on a remote basis.
+
+--------------------------------------------
+Position: WordPress Developer
+Job Type: Remote
+Working Hours: 12:00 PM to 9:00 PM PST
+Experience Required: 2+ Years
+--------------------------------------------
+
+Key Requirements:
+- Minimum 2 years of hands-on experience with WordPress development
+- Strong understanding of core PHP (mandatory)
+- Proficiency in HTML5, CSS3, JavaScript, and jQuery
+- Experience with custom theme and plugin development
+- Familiarity with MySQL and database management
+- Knowledge of WordPress hooks, filters, and REST API
+- Experience with page builders (Elementor, WPBakery, etc.) is a plus
+- Ability to troubleshoot and debug issues efficiently
+- Good communication skills and ability to work independently
+
+Responsibilities:
+- Develop, customize, and maintain WordPress websites
+- Build custom themes and plugins from scratch
+- Optimize websites for speed, SEO, and performance
+- Collaborate with designers and project managers
+- Ensure responsive design across all devices
+- Perform regular updates, backups, and security checks
+
+What We Offer:
+- 100% remote work flexibility
+- Competitive compensation
+- Friendly and collaborative team environment
+- Opportunity to work on diverse and challenging projects
+
+How to Apply:
+Interested candidates can share their updated CV along with a portfolio of previous work at: 249tec@gmail.com
+
+Please mention "WordPress Developer Application" in the subject line.
+
+Looking forward to hearing from passionate developers!
+
+Best regards,
+Wajahat

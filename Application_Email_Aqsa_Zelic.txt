@@ -1,0 +1,39 @@
+To: aqsa@zelicventures.co
+Subject: Application for Web Developer (Remote) – Wajahat Irfan
+
+Hi Aqsa,
+
+I hope you're doing well.
+
+I came across your post for the remote Web Developer role at Zelic Ventures, and I'd genuinely love to be part of the team. The 2 PM onwards schedule, the Monday to Saturday rhythm, and the full-time remote setup line up really well with how I already work. And to be upfront — I'm someone who often goes beyond the 8 hours when a project needs it. I care more about shipping the right thing than clocking out at exactly the right minute.
+
+A quick bit about me: I'm a Senior Full Stack Developer with 4+ years of experience building responsive, production-grade websites and web apps. My day-to-day stack lines up almost 1:1 with what you've listed:
+
+- HTML, CSS, JavaScript (and TypeScript) — strong fundamentals, not just framework-deep
+- React.js and Next.js — reusable components, responsive UIs, performance-tuned
+- Node.js / Express / NestJS — REST and GraphQL APIs, third-party integrations
+- MongoDB, MySQL, PostgreSQL — schema design, query optimization, real production workloads
+- Git/GitHub workflows, code reviews, CI/CD
+- Translating Figma and UI designs into pixel-accurate, fast, accessible websites
+
+Where I think I can stand out for this role:
+
+- I've been working fully remote across multiple time zones with international teams (Mulhiq – Dubai, Runrly – Toronto, Midcreatives – Quebec). Async communication, accountability, and self-management are already how I operate.
+- I'm genuinely flexible with hours. Happy to put in extra time on tight deliverables, hop on calls outside my window when the team needs it, and be reachable when something's blocking a release. The 2 PM onwards window suits me very well, and I can stretch later when it matters.
+- I take ownership of the unglamorous parts — debugging, performance, security, and cleanup — not just the new feature work.
+- I treat client and team projects like my own. I ask *why* before *what*, flag issues early, and keep things moving.
+- I can start immediately and commit fully to the role.
+
+I've attached my resume and portfolio for your review. I'd love a short call whenever suits you to learn more about the team, the kinds of projects you're working on, and how I can contribute from day one.
+
+Thank you so much for your time, Aqsa. Looking forward to hearing from you.
+
+Warm regards,
+Wajahat Irfan
+
+Phone:     +92 323 4044233
+Email:     wajahatirfan35@gmail.com
+LinkedIn:  linkedin.com/in/wajahatirfan
+GitHub:    github.com/Waj35
+Portfolio: waj35.github.io
+Location:  Lahore, Pakistan

@@ -1,0 +1,36 @@
+To: HR@musanadahr.com
+Subject: Application for Senior Full Stack Developer (Remote – flynas, Riyadh) – Wajahat Irfan
+
+Dear Hiring Team,
+
+I hope you're doing well.
+
+I came across your posting for the remote Senior Full Stack Developer role with flynas (Riyadh, Saudi Arabia) and I'd like to submit my application. The full-time remote setup, the structured agile environment you've described, and the opportunity to contribute to a respected aviation brand are all genuinely exciting to me.
+
+A quick bit about me: I'm a Senior Full Stack Developer with 4+ years of hands-on experience delivering production-grade web applications, REST and GraphQL APIs, and cloud-deployed systems. I currently work with international teams at Mulhiq (Dubai), Runrly (Toronto), and Midcreatives (Quebec), where I lead frontend architecture, design backend services, and partner closely with product owners, architects, and QA throughout the delivery cycle.
+
+How I map to the requirements you've outlined:
+
+- Software development, coding, and unit testing — Day-to-day work in React.js, Next.js, TypeScript, Node.js (Express / NestJS), and Python/Django, with strong unit and integration testing practices.
+- Daily stand-ups, sprint planning, retrospectives, reviews — Already operating in agile/scrum cycles across remote, multi-time-zone teams. Comfortable on Jira, Slack, Teams, Zoom, and similar tools.
+- Code review, peer review, and standards/version control — I run code reviews regularly, follow Git/GitHub branching and PR workflows, and have helped raise engineering standards in every team I've joined.
+- Technical documentation — I document features, APIs, and integrations as part of my normal workflow (Confluence, Markdown, README-driven dev).
+- Collaboration with product owners, architects, and QA — I treat collaboration as core engineering work, not a side activity. I'm proactive in clarifying requirements, flagging risk early, and keeping stakeholders aligned.
+- Bug fixing, performance optimization, and UAT support — Comfortable in production firefighting, profiling, and supporting QA/UAT phases until features are stable in the user's hands.
+
+Tech stack snapshot: React.js, Next.js, TypeScript, Node.js, Express, NestJS, REST/GraphQL, PostgreSQL, MongoDB, Redis, AWS (EC2, S3, RDS), Docker, CI/CD, Sentry, Prometheus, Grafana.
+
+I'm based in Lahore, Pakistan (GMT+5), which gives me strong real-time overlap with Riyadh (GMT+3), and I'm available to start immediately. I've attached my resume and portfolio for your review and would welcome the chance to discuss the role and flynas's engineering setup in more detail.
+
+Thank you very much for your time and consideration.
+
+Warm regards,
+Wajahat Irfan
+Senior Full Stack Developer
+
+Phone:     +92 323 4044233
+Email:     wajahatirfan35@gmail.com
+LinkedIn:  linkedin.com/in/wajahatirfan
+GitHub:    github.com/Waj35
+Portfolio: waj35.github.io
+Location:  Lahore, Pakistan

@@ -1,0 +1,55 @@
+LinkedIn DM — Vibe Coder (Remote, Pakistan)
+
+---
+
+Hi [Name],
+
+Saw your post for the Vibe Coder role — this is exactly the kind of work I love. Building fast with AI tools and shipping real products is pretty much my day-to-day already.
+
+Quick snapshot of why I'm a strong fit:
+
+• Senior Full Stack Developer based in Lahore, Pakistan — 4+ years shipping production apps
+• Daily driver with Claude (Claude Code + API), Cursor, and GitHub Copilot — I use them to move from idea to working prototype in hours, not days
+• Strong fundamentals in HTML, CSS, JavaScript, TypeScript, plus React.js, Next.js, Node.js, and Tailwind
+• Built and shipped real products end-to-end: marketing dashboards, SaaS tools, real-time chat, streaming alert overlays, SERP API service, internal admin panels
+• Comfortable owning the full loop — design, build, deploy (AWS / Vercel), iterate based on feedback
+• Independent, async-friendly, and used to working remote across multiple time zones
+
+I'd love to chat about the kind of products you're building and what shipping fast looks like on your team.
+
+Portfolio: https://waj35.github.io
+GitHub: https://github.com/Waj35
+LinkedIn: linkedin.com/in/wajahatirfan
+
+Happy to jump on a quick call whenever suits you.
+
+Best,
+Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+
+---
+
+SHORT VERSION (tighter first message):
+
+Hi [Name], saw your post for the Vibe Coder role — really interested.
+
+I'm a Lahore-based Senior Full Stack Dev (React / Next.js / Node.js) and I build daily with Claude, Cursor, and Copilot. I've shipped real SaaS, dashboards, and internal tools end-to-end, and going from idea to working product in a day or two is genuinely how I work.
+
+Portfolio: https://waj35.github.io
+GitHub: https://github.com/Waj35
+
+Would love to hop on a quick call and learn what you're building.
+
+Best,
+Wajahat Irfan
+
+---
+
+EVEN SHORTER (one-liner reply, if their post asked for a DM):
+
+Hi [Name] — Lahore-based full stack dev here, daily user of Claude, Cursor, and Copilot. Shipped real SaaS, dashboards, and internal tools end-to-end with React/Next.js/Node.
+
+Portfolio: https://waj35.github.io · GitHub: https://github.com/Waj35
+
+Happy to share more if it's a fit.

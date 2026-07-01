@@ -1,0 +1,45 @@
+To: careers@terapage.ai
+Subject: Full Stack Developer (MERN) Application — Wajahat Irfan
+
+Dear Hiring Manager,
+
+I hope this message finds you well.
+
+I am writing to apply for the Full Stack Software Developer (MERN) role at Terapage. Your focus on combining design, analytics, and automation to understand the "why" behind user behaviour really resonates with the kind of product work I enjoy most, and I would be excited to contribute to that mission as part of your remote engineering team in Pakistan.
+
+A brief overview of how my background maps to the role:
+
+- 1–2+ years of hands-on experience as a Full Stack Developer working across the MERN stack (MongoDB, Express.js, React.js, Node.js)
+- Strong command of JavaScript (ES6+), React, Node, Express, and MongoDB — building scalable, production-grade web applications end-to-end
+- Solid understanding of REST API architecture, authentication flows (JWT / OAuth), and integrating third-party services
+- Experience deploying applications on Vercel and AWS (including S3), with comfort around domain configuration and CI/CD workflows
+- Day-to-day proficiency with Git / GitHub, agile sprints, code reviews, and writing clear API and product documentation
+- Eye for clean, responsive UI / UX with a mobile-first mindset
+- Strong analytical and debugging skills — comfortable identifying and resolving performance and security issues
+- Daily AI-assisted workflow using Claude, ChatGPT, GitHub Copilot, Codex, and Blackbox AI to ship faster without compromising quality
+
+Recent project highlights:
+
+- Built and deployed a Next.js / React production project: https://brandfuler.vercel.app/
+- Portfolio with additional work: https://waj35.github.io
+- GitHub: https://github.com/Waj35
+
+Availability:
+
+- Fully available for the 9:00 AM – 6:00 PM PKT schedule (Monday–Saturday) with Friday prayer-break flexibility
+- Comfortable with remote-first tools such as Slack, Zoho, and Jira
+- Available to start on or before 15 April 2026
+
+The salary range of PKR 60,000 – 70,000 per month works for me, and I am genuinely excited about the opportunity to grow with a UK-headquartered product startup building global, AI-driven platforms.
+
+My updated CV is attached for your review. I would welcome the opportunity to discuss how my MERN experience and AI-assisted workflow can contribute to Terapage's roadmap.
+
+Thank you for your time and consideration.
+
+Best regards,
+Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+linkedin.com/in/wajahatirfan
+https://waj35.github.io
+Lahore, Punjab, Pakistan

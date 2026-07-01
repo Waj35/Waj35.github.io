@@ -1,0 +1,133 @@
+================================================================
+BABYDAY INTERNSHIP APPLICATION — EMAIL DRAFTS
+Send to: career@babyday.co
+================================================================
+
+
+----------------------------------------------------------------
+VERSION 1 — REACT NATIVE INTERN (RECOMMENDED)
+----------------------------------------------------------------
+
+Subject: Application — React Native Intern
+
+Hi Babyday team,
+
+Saw your post about the internship program and it lined up almost
+exactly with what I've been looking for — real product work, real
+team, no tutorial loops.
+
+Quick about me:
+I'm Wajahat Irfan, based in Lahore. My background is mostly web
+(React, Next.js, Node), but I've been moving into React Native
+over the last few months because I want to build mobile products,
+not just talk about them. I've shipped a few small apps on my own
+to learn the ecosystem — navigation, state, native modules, and
+the usual headaches around builds and releases.
+
+I'm comfortable with:
+- React Native, React, TypeScript
+- REST and GraphQL APIs
+- Git workflows and shipping in small iterations
+
+What I'm bringing:
+- Hands-on coding experience, not just coursework
+- A real willingness to learn how a startup actually moves
+- Time, effort, and zero ego about being told my code can be better
+
+A few things I've built (happy to share links / repos):
+- Portfolio: https://waj35.github.io
+- GitHub: https://github.com/wajahatirfan
+
+If the fit feels right, I'd love to hop on a quick call and hear
+more about what you're building.
+
+Thanks for opening this up — programs like this are rare here.
+
+— Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+
+
+----------------------------------------------------------------
+VERSION 2 — BACKEND INTERN (NestJS + PostgreSQL)
+----------------------------------------------------------------
+
+Subject: Application — Backend Intern (NestJS + PostgreSQL)
+
+Hi Babyday team,
+
+Your post stood out — most "internships" I've seen are either
+unpaid label-work or glorified tutorials. The fact that you said
+upfront it's about real execution made me want to apply.
+
+Short version about me:
+I'm Wajahat. I've been writing code professionally for a while
+now, mostly Node.js and Express, but I've been working with
+NestJS and PostgreSQL on personal projects because I wanted a
+cleaner, more structured way to build APIs. I'm comfortable
+designing schemas, writing migrations, building auth, and
+handling the boring-but-important stuff like validation and
+error handling.
+
+What I can bring on day one:
+- Solid grip on TypeScript, Node, NestJS basics
+- PostgreSQL — joins, indexes, migrations, the usual
+- REST + GraphQL API design
+- Docker, basic AWS, CI/CD
+
+What I want out of this:
+- Work on something real with actual users
+- Learn how decisions get made in a startup, not just how code
+  gets written
+- Ship features end-to-end
+
+Some of what I've built so far is up on:
+- Portfolio: https://waj35.github.io
+- GitHub: https://github.com/wajahatirfan
+
+If you'd like to chat, I'm around any time this week.
+
+Thanks for the opportunity.
+
+— Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+
+
+----------------------------------------------------------------
+VERSION 3 — SHORT & DIRECT (use if you want minimal)
+----------------------------------------------------------------
+
+Subject: Internship Application — [React Native / Backend]
+
+Hi team,
+
+Applying for the [React Native / Backend] intern role.
+
+I'm Wajahat, based in Lahore. I've been building with
+[React Native / NestJS + PostgreSQL] on my own and want to
+get into a real team and ship real products instead of just
+making demo apps.
+
+Quick links:
+- Portfolio: https://waj35.github.io
+- GitHub: https://github.com/wajahatirfan
+- Phone: +92 323 4044233
+
+Happy to walk through anything I've built or jump on a call
+whenever works for you.
+
+Thanks,
+Wajahat
+
+
+================================================================
+TIPS BEFORE YOU SEND:
+================================================================
+1. Pick ONE version — don't send all three.
+2. Attach 1-2 small projects (GitHub repo or live link).
+3. Keep the subject line clean — no emojis, no all-caps.
+4. Send from a clean email address (your Gmail is fine).
+5. Send Mon-Thu morning (Pakistan time) — better open rates.
+6. If you don't hear back in 7 days, one polite follow-up is okay.
+================================================================

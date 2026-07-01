@@ -1,0 +1,42 @@
+Subject: Application for Full Stack Developer (Python/React) — Wajahat Irfan
+
+Dear Hiring Manager,
+
+I hope this message finds you well.
+
+I am writing to express my strong interest in the Full Stack Developer (Python/React) position at Ropstam Solutions Inc. With 4+ years of hands-on experience building scalable, production-grade web applications using Python (Django) and React.js, I am confident that my background aligns closely with what your team is looking for. I am also available as an immediate joiner and comfortable working EST hours.
+
+A brief overview of how my experience maps to the role:
+
+- 4+ years of full-stack development experience delivering scalable web applications end-to-end
+- Strong backend expertise in Python and Django, including ORM, migrations, authentication, and REST API design
+- Advanced frontend skills in React.js, Next.js, Redux, TypeScript, and modern UI tooling
+- Solid experience designing and consuming REST and GraphQL APIs in production environments
+- Hands-on database experience with PostgreSQL, MySQL, MongoDB, and Redis (both SQL and NoSQL)
+- Strong understanding of scalable application architecture, performance optimization, and clean code practices
+- Comfortable with AWS, Docker, CI/CD pipelines, and modern DevOps workflows
+- Clear communicator with experience gathering requirements, coordinating with cross-functional teams, and working remotely across time zones
+
+Recent experience highlights:
+
+- Built and scaled full-stack applications using Django, Python, React, and AWS at GGDEN (Lahore)
+- Led backend architecture for a high-traffic influencer-marketing platform at Mulhiq (Dubai)
+- Designed and shipped REST and GraphQL APIs powering marketing dashboards at Runrly (Toronto)
+- Architected scalable systems for campaign management and client dashboards at Midcreatives (Quebec)
+- Mentored developers and enforced best practices in code reviews, architecture, and deployment
+
+I am a self-driven developer who thrives in remote, fast-paced environments and takes ownership of delivering quality work on time. My updated CV is attached for your review, along with links to my portfolio and recent projects.
+
+Availability: Immediate joiner, fully comfortable with EST working hours.
+
+I would welcome the opportunity to discuss how my experience can contribute to the Ropstam team.
+
+Thank you for your time and consideration.
+
+Best regards,
+Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+linkedin.com/in/wajahatirfan
+https://waj35.github.io
+Lahore, Punjab, Pakistan

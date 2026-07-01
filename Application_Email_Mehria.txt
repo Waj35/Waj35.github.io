@@ -1,0 +1,31 @@
+To: mehria.akhter@letsremotify.com
+Subject: Application for Senior Frontend Engineer (React.js) – Wajahat Irfan
+
+Hi Mehria,
+
+I hope you're doing well.
+
+I came across your post about the Senior Frontend Engineer (React.js) opening at Letsremotify, and I'd genuinely love to be considered for the role. The remote setup and the kind of work your team is shipping really align with where I want to take my career next.
+
+A quick bit about me: I have over 5 years of experience as a frontend developer, with strong hands-on expertise in React.js, Next.js, TypeScript, Redux, and modern tooling like Tailwind CSS, Webpack, and SASS. I'm currently working as a Senior Full Stack Developer with international teams (Mulhiq – Dubai, Runrly – Toronto, and Midcreatives – Quebec), where I lead frontend architecture, build scalable React/Next.js applications, and partner closely with backend, design, and product teams to ship high-quality features.
+
+What I think I'd bring to your team:
+
+- Solid React expertise – hooks, context, performance tuning, SSR/SSG with Next.js, reusable component systems
+- A real focus on writing maintainable, well-tested, and scalable code – not just code that "works"
+- Experience working fully remote across multiple time zones – I'm communicative, async-friendly, and self-driven
+- A genuine product mindset – I care about *why* we're building something, not just shipping tickets
+- Mentoring experience – I've led developers, run code reviews, and helped raise engineering standards across teams
+
+I've attached my resume for your review. I'd love the chance to chat and learn more about the team, the product, and the challenges you're tackling right now. Even a short call would mean a lot.
+
+Thank you so much for your time, Mehria. Looking forward to hearing from you.
+
+Warm regards,
+Wajahat Irfan
+
+Phone:    +92 323 4044233
+Email:    wajahatirfan35@gmail.com
+LinkedIn: linkedin.com/in/wajahatirfan
+GitHub:   github.com/Waj35
+Location: Lahore, Pakistan

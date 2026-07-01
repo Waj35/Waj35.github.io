@@ -1,0 +1,38 @@
+Subject: Application for Mid-Senior Front-End Developer (React / Angular) — Wajahat Irfan
+
+Dear Hiring Manager,
+
+I hope this email finds you well.
+
+I am writing to express my strong interest in the Mid-Senior Front-End Developer position (React / Angular). With 4+ years of hands-on experience building scalable, high-performance web applications, I am confident that my skill set and background align well with what your team is looking for.
+
+A brief overview of my front-end expertise:
+
+- 4+ years of experience developing modern, responsive web applications
+- Strong command of React.js, Next.js, Redux, and React Native
+- Solid working experience with Angular and Vue.js for enterprise applications
+- Advanced proficiency in JavaScript (ES6+), TypeScript, HTML5, and CSS3
+- Skilled in Tailwind CSS, Bootstrap, SASS, and Webpack for scalable UI systems
+- Experience integrating REST and GraphQL APIs with complex state management
+- Strong focus on performance optimization, reusable component architecture, and clean code
+- Familiarity with CI/CD pipelines, Git workflows, and cross-browser compatibility
+- Proven ability to collaborate with designers, backend engineers, and product managers
+
+Recent experience highlights:
+- Led front-end architecture for a high-traffic influencer-marketing platform at Mulhiq (Dubai)
+- Built and optimized marketing dashboards using React, Next.js, and TypeScript at Runrly (Toronto)
+- Architected reusable frontend systems for campaign management at Midcreatives (Quebec)
+- Mentored junior developers and enforced best practices in coding standards and reviews
+
+I am a self-driven developer who thrives in remote, collaborative environments and takes ownership of delivering quality work on time. My updated CV is attached for your review, along with links to my portfolio.
+
+I would welcome the opportunity to discuss how my experience can contribute to your team.
+
+Thank you for your time and consideration.
+
+Best regards,
+Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+linkedin.com/in/wajahatirfan
+Lahore, Punjab, Pakistan

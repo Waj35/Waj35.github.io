@@ -1,0 +1,40 @@
+Subject: Application for Jr. Full Stack Developer – Laravel & React (AI Focused) — Wajahat Irfan
+
+Dear Hiring Manager,
+
+I hope this message finds you well.
+
+I am writing to express my strong interest in the Jr. Full Stack Developer – Laravel & React (AI Focused) role advertised on LinkedIn. With hands-on full-stack experience building modern web applications and a daily AI-assisted workflow, I am confident I can contribute meaningfully to your team from day one.
+
+A brief overview of how my background maps to the role:
+
+- Strong hands-on experience with React.js, Next.js, Redux, TypeScript, and modern frontend tooling
+- Solid PHP background with exposure to Laravel-style MVC architecture, Eloquent-style ORMs, routing, middleware, and REST API design
+- Proven track record of building and maintaining production web applications end-to-end (frontend, backend, database, and deployment)
+- Deep understanding of web architecture, clean code practices, version control, and modern development workflows
+- Daily use of AI tools — Claude, ChatGPT, GitHub Copilot, Codex, and Blackbox AI — to accelerate development, improve code quality, and ship features faster
+- Comfortable managing multiple parallel projects using AI-assisted workflows for code review, refactoring, debugging, and documentation
+- Familiar with REST APIs, MySQL/PostgreSQL, authentication flows, third-party integrations (Stripe, Google Ads, Meta Ads), and CI/CD pipelines
+
+Recent experience highlights:
+
+- Built and shipped React-based dashboards and marketing platforms used in production
+- Integrated AI-assisted workflows into my daily development cycle to enhance productivity and reduce time-to-delivery
+- Worked across frontend, backend, and infrastructure layers, giving me a strong full-stack perspective
+- Collaborated remotely with cross-functional teams, taking ownership of features from spec to deployment
+
+I am a self-driven developer who learns quickly, takes ownership, and thrives in fast-paced, AI-first environments. I am genuinely excited about a role that explicitly values AI-assisted development, since it aligns with how I already work every day.
+
+My updated CV is attached for your review, along with links to my portfolio and recent projects.
+
+I would welcome the opportunity to discuss how my skills and AI-driven workflow can contribute to your team.
+
+Thank you for your time and consideration.
+
+Best regards,
+Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+linkedin.com/in/wajahatirfan
+https://waj35.github.io
+Lahore, Punjab, Pakistan

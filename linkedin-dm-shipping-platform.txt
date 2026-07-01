@@ -1,0 +1,45 @@
+LinkedIn DM — Full Stack Developer (Shipping Platform / Yulia Integration)
+
+---
+
+Hi [Hiring Manager's Name],
+
+I came across your post for the Full Stack Developer role to build a custom shipping & inventory platform with Yulia integration — I'd love to be considered.
+
+Quick snapshot of why I'm a strong fit:
+
+• Full-stack developer with hands-on experience in React, Next.js, Node.js, and REST API integrations
+• Built and shipped production dashboards, admin panels, and order/tracking interfaces end-to-end
+• Comfortable integrating third-party supplier and logistics APIs (auth flows, webhooks, sync jobs, error handling)
+• Strong eye for clean, responsive UI — I design and build for real users, not just demos
+• Experienced working solo on tight timelines and delivering polished products in 30 days or less
+• Available to start immediately and commit fully to the 1-month timeline
+
+The $4,500 AUD fixed scope works for me, and I can have a working prototype in your hands within the first week so we can iterate fast.
+
+Portfolio: https://waj35.github.io
+GitHub: https://github.com/Waj35
+LinkedIn: linkedin.com/in/wajahatirfan
+
+Happy to jump on a quick call to walk through the Yulia integration approach and timeline whenever you're free.
+
+Best,
+Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+
+---
+
+SHORT VERSION (if you want a tighter first message):
+
+Hi [Name], saw your post for the Full Stack Developer role on the Yulia shipping platform — really interested.
+
+I'm a full-stack dev (React / Next.js / Node.js) with solid experience in API integrations, logistics-style workflows, and shipping clean responsive UIs end-to-end. The 1-month timeline and $4,500 AUD scope work for me, and I can start immediately.
+
+Portfolio: https://waj35.github.io
+GitHub: https://github.com/Waj35
+
+Would love to discuss the Yulia integration and timeline — open to a quick call whenever suits you.
+
+Best,
+Wajahat Irfan

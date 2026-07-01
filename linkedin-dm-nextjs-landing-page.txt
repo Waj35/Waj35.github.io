@@ -1,0 +1,40 @@
+LinkedIn DM — Next.js Developer (High-End Beauty/Makeup Landing Page)
+To: Mhamad Alkak
+
+---
+
+Hi Mhamad,
+
+Saw your post for the Next.js Developer role on the beauty/makeup artist landing page — really interested.
+
+I'm a frontend dev specializing in Next.js (latest), Tailwind CSS, and TypeScript, with a strong eye for modern, elegant UI work. I build with performance in mind — Next.js Image optimization, lazy loading, SEO-friendly structure, and smooth scroll/animations baked in. Comfortable deploying on Vercel with custom domain setup.
+
+The 4–7 day timeline and $600 fixed scope work for me, and I can start immediately.
+
+Recent Next.js work: https://brandfuler.vercel.app/
+Portfolio: https://waj35.github.io
+GitHub: https://github.com/Waj35
+
+Happy to jump on a quick call to walk through your vision and lock in the design direction.
+
+Best,
+Wajahat Irfan
++92 323 4044233
+wajahatirfan35@gmail.com
+
+---
+
+SHORTER VERSION (tighter first message):
+
+Hi Mhamad, saw your post for the Next.js landing page for the beauty/makeup brand — really interested.
+
+I work daily in Next.js (latest), Tailwind, and TypeScript, with a strong focus on modern, elegant UI, image optimization, and smooth animations. Vercel deployment and domain setup are no problem. The 4–7 day timeline and $600 scope work for me, and I can start immediately.
+
+Recent Next.js work: https://brandfuler.vercel.app/
+Portfolio: https://waj35.github.io
+GitHub: https://github.com/Waj35
+
+Would love to hop on a quick call to align on the design direction.
+
+Best,
+Wajahat Irfan
