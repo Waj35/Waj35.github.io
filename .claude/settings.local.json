@@ -15,7 +15,15 @@
       "Bash(Remove-Item -Force \".git\\\\objects\\\\73\\\\5d90e4899135f9cdaac6c1647d37697a091825\")",
       "Bash(git reset *)",
       "Bash(git add *)",
-      "Bash(git commit *)"
+      "Bash(git commit *)",
+      "WebSearch",
+      "Bash(mkdir -p \"C:/Users/wajah/.claude/projects/f--Wajahat-wajahat-port-Waj35-github-io/memory\" 2>/dev/null; echo ok)",
+      "PowerShell(git stash -u)",
+      "PowerShell(git pull)",
+      "PowerShell(git stash pop)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\wajah\\.claude\\projects\\f--Wajahat-wajahat-port-Waj35-github-io\\memory"
     ]
   }
 }
