@@ -1,0 +1,292 @@
+/* =========================================================
+   Business-Growth Redesign — additive styles
+   Loaded after styles.css / services_testimonials.css
+   ========================================================= */
+
+.text-accent {
+    background: linear-gradient(135deg, #fff 0%, var(--ue-primary) 55%, #fff 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 4s ease-in-out infinite;
+}
+
+.section-sub {
+    max-width: 720px;
+    margin: -35px auto 45px;
+    text-align: center;
+    color: #999;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* --- Hero (business framing) --- */
+.hero-content-main {
+    max-width: 620px;
+    animation: heroSlideIn 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border: 1px solid rgba(0, 174, 239, 0.35);
+    background: rgba(0, 174, 239, 0.08);
+    border-radius: 20px;
+    color: var(--ue-primary);
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero-badge i { color: #2ecc71; }
+
+.hero-content-main h1 {
+    font-family: var(--font-heading);
+    font-size: 3.2rem;
+    line-height: 1.15;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-sub {
+    font-size: 1.05rem;
+    color: #b5b5b5;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 35px;
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 1px solid #2a2a2a;
+    flex-wrap: wrap;
+}
+
+.hero-stats div { display: flex; flex-direction: column; }
+
+.hero-stats strong {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(to bottom, #fff, var(--ue-primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-stats span {
+    font-size: 0.78rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+}
+
+/* --- Trusted By strip --- */
+.trusted-strip {
+    padding: 30px 0 50px;
+}
+
+.trusted-label {
+    text-align: center;
+    color: #666;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.trusted-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.trusted-row span {
+    color: #777;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.trusted-row span:hover {
+    color: var(--ue-primary);
+    opacity: 1;
+}
+
+/* --- Pain Points (Challenges) --- */
+.pain-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.pain-card {
+    background: linear-gradient(145deg, #1e1e1e, #161616);
+    border: 1px solid #2a2a2a;
+    border-left: 3px solid var(--ue-event);
+    border-radius: 6px;
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+.pain-card:hover {
+    transform: translateY(-5px);
+    border-left-color: var(--ue-selection);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+.pain-card i {
+    font-size: 1.4rem;
+    color: var(--ue-selection);
+    margin-bottom: 15px;
+    display: block;
+}
+
+.pain-card h3 {
+    color: #fff;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+
+.pain-card p {
+    color: #999;
+    font-size: 0.88rem;
+    line-height: 1.65;
+}
+
+/* --- Process (connected flow) --- */
+.process-flow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    position: relative;
+}
+
+.process-flow::before {
+    content: '';
+    position: absolute;
+    top: 28px;
+    left: 5%;
+    right: 5%;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--ue-primary) 0 8px, transparent 8px 16px);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.process-step {
+    position: relative;
+    z-index: 1;
+    background: rgba(20,20,20,0.95);
+    border: 1px solid #000;
+    border-radius: 6px;
+    box-shadow: var(--shadow-node);
+    transition: all 0.3s ease;
+}
+
+.process-step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 174, 239, 0.15);
+}
+
+.process-num {
+    width: 56px;
+    height: 56px;
+    margin: -20px auto 0;
+    background: linear-gradient(135deg, var(--ue-primary), #0088aa);
+    border: 3px solid var(--ue-bg-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.process-step h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    margin: 15px 0 10px;
+    padding: 0 15px;
+}
+
+.process-step p {
+    text-align: center;
+    color: #999;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    padding: 0 18px 20px;
+}
+
+/* --- Case Study outcome framing --- */
+.outcome-tag {
+    display: inline-block;
+    color: var(--ue-selection);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.role-line {
+    color: #888 !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 12px !important;
+    flex-grow: 0 !important;
+}
+
+/* --- CTA banner --- */
+.cta-banner {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(145deg, rgba(0,174,239,0.08), rgba(0,0,0,0.2));
+    border: 1px solid rgba(0, 174, 239, 0.25);
+    border-radius: 10px;
+    padding: 50px 40px;
+}
+
+.cta-banner h2 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.cta-banner p {
+    color: #aaa;
+    max-width: 560px;
+    margin: 0 auto 30px;
+    line-height: 1.7;
+}
+
+.cta-banner .hero-actions { justify-content: center; }
+
+/* --- Responsive --- */
+@media (max-width: 968px) {
+    .process-flow { grid-template-columns: repeat(2, 1fr); }
+    .process-flow::before { display: none; }
+}
+
+@media (max-width: 768px) {
+    .hero-content-main h1 { font-size: 2.3rem; }
+    .hero-stats { gap: 25px; }
+    .process-flow { grid-template-columns: 1fr; }
+    .cta-banner { padding: 35px 20px; }
+    .section-sub { margin-top: -20px; }
+}
