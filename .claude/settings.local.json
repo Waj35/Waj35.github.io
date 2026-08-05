@@ -111,7 +111,8 @@
       "Bash(npx --yes playwright --version)",
       "PowerShell(node -v)",
       "PowerShell(npx --version)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(cd \"e:/Wajahat/Waj35.github.io\" && sed -i 's#https://github.com/wajahatirfan#https://github.com/Waj35#g; s#https://www.linkedin.com/in/wajahatirfan#https://www.linkedin.com/in/wajahatirfan35/#g' index.html && grep -n \"github.com/Waj35\\\\|linkedin.com/in/wajahatirfan35\" index.html)"
     ],
     "additionalDirectories": [
       "C:\\Users\\wajah\\.claude\\projects\\f--Wajahat-wajahat-port-Waj35-github-io\\memory",
