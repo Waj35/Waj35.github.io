@@ -1,0 +1,7 @@
+{
+  "name": "draftly-collaborative-editor",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "npx serve .", "test": "node --test" },
+  "engines": { "node": ">=20" }
+}

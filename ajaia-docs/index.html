@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A lightweight collaborative document workspace.">
+  <title>Draftly — shared docs, minus the clutter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Document navigation">
+      <div class="brand"><span class="brand-mark">D</span><span>draftly</span></div>
+      <button id="new-doc" class="new-button" type="button"><span>+</span> New document</button>
+      <nav class="filters" aria-label="Document filters">
+        <button class="filter active" data-filter="all"><span>▣</span> All documents <b id="all-count">0</b></button>
+        <button class="filter" data-filter="owned"><span>◇</span> Owned by me <b id="owned-count">0</b></button>
+        <button class="filter" data-filter="shared"><span>⊙</span> Shared with me <b id="shared-count">0</b></button>
+      </nav>
+      <div class="sidebar-bottom">
+        <button id="import-trigger" class="quiet-button" type="button"><span>↑</span> Import file</button>
+        <p class="file-hint">Supports .txt and .md · max 1 MB</p>
+        <input id="file-input" type="file" accept=".txt,.md,text/plain,text/markdown" hidden>
+        <div class="user-switcher">
+          <span id="avatar" class="avatar">M</span>
+          <label><small>Viewing as</small><select id="user-select" aria-label="Switch demo user"></select></label>
+        </div>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <header class="topbar">
+        <button id="mobile-nav" class="icon-button mobile-only" aria-label="Open navigation">☰</button>
+        <div><p class="eyebrow">WORKSPACE</p><h1 id="view-title">All documents</h1></div>
+        <div class="topbar-actions">
+          <label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search documents" aria-label="Search documents"></label>
+          <span id="save-state" class="save-state">All changes saved</span>
+        </div>
+      </header>
+
+      <section id="dashboard" class="dashboard">
+        <div class="dashboard-heading"><div><h2>Your writing, all in one place.</h2><p>Pick up where you left off or start something new.</p></div><button id="new-doc-secondary" class="primary-button" type="button">+ New document</button></div>
+        <div id="document-grid" class="document-grid" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state" hidden><div>✎</div><h3>No documents here yet</h3><p>Create a document or import a text file to get started.</p><button id="empty-new" class="primary-button" type="button">Create document</button></div>
+      </section>
+
+      <section id="editor-view" class="editor-view" hidden>
+        <div class="editor-header">
+          <button id="back-button" class="back-button" type="button">← <span>Documents</span></button>
+          <input id="title-input" class="title-input" maxlength="80" aria-label="Document title">
+          <div class="editor-actions"><span id="access-badge" class="access-badge"></span><button id="share-button" class="primary-button" type="button">Share</button><button id="more-button" class="icon-button" aria-label="Document actions">⋯</button></div>
+          <div id="more-menu" class="popover action-menu" hidden><button id="duplicate-button">Duplicate document</button><button id="delete-button" class="danger">Delete document</button></div>
+        </div>
+        <div class="toolbar" role="toolbar" aria-label="Formatting tools">
+          <select id="format-block" aria-label="Text style"><option value="p">Body</option><option value="h1">Heading 1</option><option value="h2">Heading 2</option><option value="h3">Heading 3</option></select>
+          <span class="divider"></span>
+          <button data-command="bold" aria-label="Bold"><b>B</b></button><button data-command="italic" aria-label="Italic"><i>I</i></button><button data-command="underline" aria-label="Underline"><u>U</u></button>
+          <span class="divider"></span>
+          <button data-command="insertUnorderedList" aria-label="Bulleted list">☷</button><button data-command="insertOrderedList" aria-label="Numbered list">≡</button>
+          <span class="divider"></span>
+          <button data-command="undo" aria-label="Undo">↶</button><button data-command="redo" aria-label="Redo">↷</button>
+        </div>
+        <div class="paper-wrap"><article id="editor" class="paper" contenteditable="true" spellcheck="true" aria-label="Document content"></article></div>
+        <footer class="editor-footer"><span id="word-count">0 words</span><span id="updated-at"></span></footer>
+      </section>
+    </main>
+  </div>
+
+  <div id="share-modal" class="modal-backdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="share-title">
+      <div class="modal-head"><div><p class="eyebrow">COLLABORATION</p><h2 id="share-title">Share document</h2></div><button id="close-share" class="icon-button" aria-label="Close">×</button></div>
+      <p class="modal-copy">Give another workspace member access to view and edit this document.</p>
+      <div class="share-row"><select id="share-user" aria-label="Person to share with"></select><button id="grant-access" class="primary-button">Grant access</button></div>
+      <p id="share-error" class="form-error" role="alert"></p>
+      <h3>People with access</h3><div id="people-list" class="people-list"></div>
+    </section>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

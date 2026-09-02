@@ -1,0 +1,8 @@
+TODO: Paste the public unlisted Loom or YouTube walkthrough URL here before submission.
+
+Suggested 3–5 minute outline:
+1. Create, rename, format, autosave, and reopen a document.
+2. Import a .txt or .md file.
+3. Share from Maya to Priya, switch users, and show Shared with me.
+4. Explain localStorage + domain-layer architecture and intentional scope cuts.
+5. Summarize AI usage, automated tests, and the next 2–4 hours of work.
